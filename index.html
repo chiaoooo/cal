@@ -1,5 +1,17 @@
           <!-------JavaScript收集區 計算機_開始-------->
+
+<!DOCTYPE html>
+
+
 <script language="JavaScript"> 
+  if('serviceWorker' in navigator){
+  console.log("Will service worker register?");
+ navigator.serviceWorker.register('service-worker.js').then(function(reg){
+ console.log("Yes it did.");
+ }).catch(fuction(err){
+ console.log("No it didn;t. this happened:"err)
+});
+}
 <!-- hide script from old browser 
 var answer=0 
 var lastvalue=0 
@@ -127,4 +139,5 @@ document.calc.result.value+="."
 <hr width="80%" size="3" noshade color="#FF00FF"> 
            <!-------JavaScript收集區 計算機_結束--------><br>         
   <input onClick="javascript:this.form.txt.focus();this.form.txt.select();" type="button" value="全選"></p>
+
 </body></html>           
