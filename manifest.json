@@ -1,0 +1,13 @@
+{
+　"short_name": "Calculator!",
+　"name": "Calculator!",
+　"icons": [{
+　　"src":"https://scontent.ftpe8-4.fna.fbcdn.net/v/t1.15752-9/96104509_577418842880164_7964378828745211904_n.jpg?_nc_cat=104&_nc_sid=b96e70&_nc_oc=AQmqfGi5IGUk6fwwqtrm9r5wnMZMEyCXfABAwYKo7xfVP96FTsqdF3pyuvdvy3d8J2o&_nc_ht=scontent.ftpe8-4.fna&oh=14283def845b7823d04f36004ff50a64&oe=5ED5F0FB",
+　　"sizes": "192×192",
+　　"type": "image/jpg"
+　　}],
+　"start_url": "http://127.0.0.1:9999/new.html",
+　"background_color": "#000",
+　"theme_color": "#536878",
+　"display": "standalone"
+}
